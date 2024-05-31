@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+ 
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #e3f2fd;">
+
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Salon</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/stylist.html">Stylists</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/review.html">Review</a>
+          </li>
+          <!-- Button trigger modal -->
+          <button class="btn btn-primary my-1" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Us</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact us Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content text-bg-light p-3">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name</label>
+            <input type="name" class="form-control" id="exampleFormControlInput1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Contact no.</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1">
+          </div>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select Your Stylist</option>
+            <option value="1">John</option>
+            <option value="2">Paul</option>
+            <option value="3">Ric</option>
+          </select>
+          <h6>Select Your Time Slot</h6>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              9:00-1:00PM
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              5:00-10:00PM
+            </label>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="p3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Highlight your natural beauty</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="p2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+
+          <h2>We'll style while you smile!</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="p5.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+
+          <h2>Discover your beauty</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="p4.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+
+          <h2>Pure beauty from head to toe</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photo.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+
+          <h2>Beauty is our duty</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-center">
+    <h1>Our Services</h1>
+  </div>
+  
+  <!-- second carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/c1.jpg" width="100%" height="500"  alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Hair Care</h5>
+          <p>Hair care is an overall term for hygiene and cosmetology involving the hair which grows from the human scalp, and to a lesser extent facial, pubic and other body hair</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/s.jpg" width="100%" height="500"  alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Skin Care</h5>
+          <p>Skin care is a range of practices that support skin integrity, enhance its appearance, and relieve skin conditions</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/s1.jpg" width="100%" height="500" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-black">Body Care</h5>
+          <p class="text-light bg-dark">Taking care of the body and skin is part of a healthy lifestyle. If you take the time to do your skincare routine and do it well</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  
+  
+  <div class="d-flex justify-content-center">
+    <h1>About Us</h1>
+  </div>
+  <img src="e3.jpg" width="300" height="200" class="rounded float-start" alt="...">
+  <img src="e.jpg" width="300" height="200"class="rounded float-end" alt="...">
+  <p>Naturals was conceived with the idea of the modern Indian. Founded by K. Veena, whose knowledge of the international beauty industry pioneered a new era in the hair and beauty care industry in India, Naturals has made a path-breaking change in the way the beauty industry has been perceived. 
+
+    So in the early 2000s, she made that dream a reality by setting up her first salon in Chennai. It took her only a while to understand the market potential and the ever-increasing demand for professional grooming. In 2004 her husband co-founder & CEO, CK Kumaravel joined and ever since then, the Naturals team has been able to meet every challenge in this competitive industry. </p>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

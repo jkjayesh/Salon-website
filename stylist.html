@@ -1,0 +1,126 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary"style="background-color: #e3f2fd;" >
+          
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Salon</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/project.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/stylist.html">Stylists</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/review.html">Review</a>
+            </li>
+             <!-- Button trigger modal -->
+             <button class="btn btn-primary my-1" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Us</button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <div class="container my-4">
+      <div class="row featurette d-flex justify-content-center align-items-center">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">Bryon Javar</h2>
+            <p class="lead">Bryon Javar is known for styling celebrities such as Saweetie, Jennifer Lopez, and the City Girls. In his most recent work, he styled Yung Miami in a red velvet dress from Lena Berisha for Quality Control CEO Pierre Thomas’s 40th birthday party. He has styled both Saweetie and the City Girls for multiple music videos and styled JLo for one of her most recent live performances.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+              <img src="/i.jpg" width="100%" height="225" alt="">
+          </div>
+        </div>
+        <div class="row featurette d-flex justify-content-center align-items-center">
+          <div class="col-md-7 order-md-1">
+            <h2 class="featurette-heading fw-normal lh-1">Law Roach</h2>
+            <p class="lead">With over 730k followers on Instagram, Law Roach is one of Hollywood’s hottest stylists right now. He is known for styling high-profile celebrities like Zendaya, Anya Taylor Joy, and Tiffany Haddish. He has styled for magazine covers for W Magazine, ELLE, and Marie Claire, events like the Met Gala, Critics Choice Awards, and the Golden Globes, and campaigns for Givenchy and Valentino.</p>
+          </div>
+          <div class="col-md-5 order-md-2">
+              <img src="/i1.jpg" width="100%" height="225" alt="">
+          </div>
+        </div>
+        <div class="row featurette d-flex justify-content-center align-items-center">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">Jason Bolden</h2>
+            <p class="lead">Jason Bolden has been busy lately, styling celebrities like Storm Reid, Yara Shahidi, and Lori Harvey. In some of his most recent works, he styled Yara Shahidi for an Adidas collaboration, and Michael B. Jordan and Lori Harvey in custom Prada for the premiere of the Without Remorse movie.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+              <img src="/i3.jpg" width="100%" height="225" alt="">
+          </div>
+        </div>
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7 order-md-1">
+              <h2 class="featurette-heading fw-normal lh-1">Zerina Akers</h2>
+              <p class="lead">With over 730k followers on Instagram, Law Roach is one of Hollywood’s hottest stylists right now. He is known for styling high-profile celebrities like Zendaya, Anya Taylor Joy, and Tiffany Haddish. He has styled for magazine covers for W Magazine, ELLE, and Marie Claire, events like the Met Gala, Critics Choice Awards, and the Golden Globes, and campaigns for Givenchy and Valentino.</p>
+            </div>
+            <div class="col-md-5 order-md-2">
+                <img src="/i4.jpg" width="100%" height="225" alt="">
+            </div>
+          </div>
+    </div>
+
+    <!-- Contact us Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content text-bg-light p-3">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name</label>
+            <input type="name" class="form-control" id="exampleFormControlInput1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Contact no.</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1">
+          </div>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select Your Stylist</option>
+            <option value="1">John</option>
+            <option value="2">Paul</option>
+            <option value="3">Ric</option>
+          </select>
+          <h6>Select Your Time Slot</h6>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              9:00-1:00PM
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              5:00-10:00PM
+            </label>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
